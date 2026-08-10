@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>政府採購標案彙整表</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans TC", sans-serif;
+            background-color: #f8f9fa;
+            color: #333333;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            color: #1e293b;
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #2563eb;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        thead {
+            background-color: #1e293b;
+            color: #ffffff;
+        }
+
+        th {
+            padding: 14px 16px;
+            font-weight: 600;
+            white-space: nowrap;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #334155;
+            vertical-align: middle;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .amount {
+            font-weight: 600;
+            color: #059669;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background-color: #eff6ff;
+            color: #2563eb;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .date-time {
+            white-space: nowrap;
+        }
+
+        .location {
+            max-width: 260px;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 16px;
+            }
+            th, td {
+                padding: 10px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>政府採購標案彙整表</h1>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>標案名稱</th>
+                    <th style="text-align: right;">預算金額</th>
+                    <th>決標方式</th>
+                    <th>公告日</th>
+                    <th>截止投標</th>
+                    <th>開標時間</th>
+                    <th>開標地點</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>80週年局慶典禮活動企劃委託服務案</strong></td>
+                    <td class="amount">$500,000 元</td>
+                    <td><span class="badge">參考最有利標精神</span></td>
+                    <td class="date-time">115/08/04</td>
+                    <td class="date-time">115/08/19 10:00</td>
+                    <td class="date-time">115/08/19 14:00</td>
+                    <td class="location">民航局B21會議室<br><small style="color: #64748b;">(105臺北市松山區敦化北路340號)</small></td>
+                </tr>
+                <tr>
+                    <td><strong>115年度校際交流活動勞務採購案</strong></td>
+                    <td class="amount">$272,000 元</td>
+                    <td><span class="badge">參考最有利標精神</span></td>
+                    <td class="date-time">115/08/10</td>
+                    <td class="date-time">115/08/17 17:00</td>
+                    <td class="date-time">115/08/18 09:00</td>
+                    <td class="location">臺北市南湖國小1樓視聽教室一<br><small style="color: #64748b;">(114臺北市內湖區康寧路3段200號)</small></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
